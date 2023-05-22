@@ -10,7 +10,8 @@
    align-items: center;
       justify-content:space-between ;
    flex-direction: column;
-
+  
+    
     box-shadow: 0 0 8px black;
 }
 
@@ -83,7 +84,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
     box-shadow: 0 0 3px black;
-    float: right;
+   float:right;
 }
 .restartbtn{
     width: 80px;

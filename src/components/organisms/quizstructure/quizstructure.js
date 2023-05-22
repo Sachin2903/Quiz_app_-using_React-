@@ -82,10 +82,10 @@ export function Quizstructure() {
                         </div>
 
                         {
-                            (marks<12)?(<button onClick={changeQuestion} className={styles.restartbtn} >Restart</button>):(<h1>Great you pass the test</h1>)
-                            
+                            (marks < 12) ? (<button onClick={changeQuestion} className={styles.restartbtn} >Restart</button>) : (<h1>Great you pass the test</h1>)
+
                         }
-                        
+
                     </Fragment>
 
                 ) : (
